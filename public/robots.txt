@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /terms
+Allow: /privacy
+Allow: /about
+Allow: /blog
+Allow: /city/
+Allow: /demo/
+Disallow: /dashboard/
+Disallow: /admin
+Sitemap: https://cazyno.net/sitemap.xml

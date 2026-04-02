@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "casino": "赌场",
+    "sport": "体育",
+    "dashboard": "仪表盘",
+    "deposit": "存款",
+    "withdraw": "提款",
+    "profile": "个人资料",
+    "settings": "设置",
+    "leaderboard": "排行榜",
+    "stats": "统计",
+    "transactions": "交易记录",
+    "affiliate": "推广联盟",
+    "vip": "VIP俱乐部",
+    "promotions": "促销活动",
+    "rewards": "奖励",
+    "bonus": "奖金"
+  },
+  "auth": {
+    "login": "登录",
+    "signup": "注册",
+    "email": "电子邮件",
+    "code": "验证码",
+    "send_code": "发送验证码",
+    "verify": "验证",
+    "change_email": "更改邮箱",
+    "resend": "重新发送验证码"
+  },
+  "games": {
+    "play": "开始游戏",
+    "bet": "下注",
+    "balance": "余额",
+    "win": "胜利",
+    "loss": "失败",
+    "cashout": "兑现",
+    "players": "玩家",
+    "all_games": "所有游戏"
+  },
+  "wallet": {
+    "total_balance": "总余额",
+    "deposit": "存款",
+    "withdraw": "提款",
+    "wallets": "钱包"
+  },
+  "common": {
+    "see_all": "查看全部",
+    "live": "直播",
+    "jackpot": "头奖",
+    "online": "在线",
+    "games": "游戏",
+    "withdrawal_time": "< 10分钟提款"
+  }
+}

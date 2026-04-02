@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "casino": "Casino",
+    "sport": "Sports",
+    "dashboard": "Dashboard",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "profile": "Profile",
+    "settings": "Settings",
+    "leaderboard": "Leaderboard",
+    "stats": "Statistics",
+    "transactions": "Transactions",
+    "affiliate": "Affiliate",
+    "vip": "VIP Club",
+    "promotions": "Promotions",
+    "rewards": "Rewards",
+    "bonus": "Bonus"
+  },
+  "auth": {
+    "login": "Log in",
+    "signup": "Sign up",
+    "email": "Email",
+    "code": "Verification code",
+    "send_code": "Send code",
+    "verify": "Verify",
+    "change_email": "Change email",
+    "resend": "Resend code"
+  },
+  "games": {
+    "play": "Play",
+    "bet": "Bet",
+    "balance": "Balance",
+    "win": "Win",
+    "loss": "Loss",
+    "cashout": "Cash out",
+    "players": "players",
+    "all_games": "All games"
+  },
+  "wallet": {
+    "total_balance": "Total balance",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "wallets": "Wallets"
+  },
+  "common": {
+    "see_all": "See all",
+    "live": "Live",
+    "jackpot": "Jackpot",
+    "online": "online",
+    "games": "games",
+    "withdrawal_time": "< 10min withdrawal"
+  }
+}

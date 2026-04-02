@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "casino": "Casino",
+    "sport": "Deportes",
+    "dashboard": "Panel de control",
+    "deposit": "Depositar",
+    "withdraw": "Retirar",
+    "profile": "Perfil",
+    "settings": "Ajustes",
+    "leaderboard": "Clasificacion",
+    "stats": "Estadisticas",
+    "transactions": "Transacciones",
+    "affiliate": "Afiliado",
+    "vip": "Club VIP",
+    "promotions": "Promociones",
+    "rewards": "Recompensas",
+    "bonus": "Bono"
+  },
+  "auth": {
+    "login": "Iniciar sesion",
+    "signup": "Registrarse",
+    "email": "Correo electronico",
+    "code": "Codigo de verificacion",
+    "send_code": "Enviar codigo",
+    "verify": "Verificar",
+    "change_email": "Cambiar correo",
+    "resend": "Reenviar codigo"
+  },
+  "games": {
+    "play": "Jugar",
+    "bet": "Apuesta",
+    "balance": "Saldo",
+    "win": "Victoria",
+    "loss": "Derrota",
+    "cashout": "Cobrar",
+    "players": "jugadores",
+    "all_games": "Todos los juegos"
+  },
+  "wallet": {
+    "total_balance": "Saldo total",
+    "deposit": "Depositar",
+    "withdraw": "Retirar",
+    "wallets": "Billeteras"
+  },
+  "common": {
+    "see_all": "Ver todo",
+    "live": "En vivo",
+    "jackpot": "Jackpot",
+    "online": "en linea",
+    "games": "juegos",
+    "withdrawal_time": "< 10min retiro"
+  }
+}

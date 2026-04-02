@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "casino": "كازينو",
+    "sport": "رياضة",
+    "dashboard": "لوحة التحكم",
+    "deposit": "إيداع",
+    "withdraw": "سحب",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "leaderboard": "لوحة المتصدرين",
+    "stats": "الإحصائيات",
+    "transactions": "المعاملات",
+    "affiliate": "برنامج الشراكة",
+    "vip": "نادي VIP",
+    "promotions": "العروض الترويجية",
+    "rewards": "المكافآت",
+    "bonus": "مكافأة"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "code": "رمز التحقق",
+    "send_code": "إرسال الرمز",
+    "verify": "تحقق",
+    "change_email": "تغيير البريد الإلكتروني",
+    "resend": "إعادة إرسال الرمز"
+  },
+  "games": {
+    "play": "العب",
+    "bet": "رهان",
+    "balance": "الرصيد",
+    "win": "فوز",
+    "loss": "خسارة",
+    "cashout": "سحب الأرباح",
+    "players": "لاعبين",
+    "all_games": "جميع الألعاب"
+  },
+  "wallet": {
+    "total_balance": "الرصيد الإجمالي",
+    "deposit": "إيداع",
+    "withdraw": "سحب",
+    "wallets": "المحافظ"
+  },
+  "common": {
+    "see_all": "عرض الكل",
+    "live": "مباشر",
+    "jackpot": "الجائزة الكبرى",
+    "online": "متصل",
+    "games": "ألعاب",
+    "withdrawal_time": "< 10 دقائق للسحب"
+  }
+}

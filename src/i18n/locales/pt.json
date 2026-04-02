@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "casino": "Casino",
+    "sport": "Esportes",
+    "dashboard": "Painel",
+    "deposit": "Depositar",
+    "withdraw": "Sacar",
+    "profile": "Perfil",
+    "settings": "Configuracoes",
+    "leaderboard": "Classificacao",
+    "stats": "Estatisticas",
+    "transactions": "Transacoes",
+    "affiliate": "Afiliado",
+    "vip": "Clube VIP",
+    "promotions": "Promocoes",
+    "rewards": "Recompensas",
+    "bonus": "Bonus"
+  },
+  "auth": {
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "email": "Email",
+    "code": "Codigo de verificacao",
+    "send_code": "Enviar codigo",
+    "verify": "Verificar",
+    "change_email": "Alterar email",
+    "resend": "Reenviar codigo"
+  },
+  "games": {
+    "play": "Jogar",
+    "bet": "Aposta",
+    "balance": "Saldo",
+    "win": "Vitoria",
+    "loss": "Derrota",
+    "cashout": "Retirar",
+    "players": "jogadores",
+    "all_games": "Todos os jogos"
+  },
+  "wallet": {
+    "total_balance": "Saldo total",
+    "deposit": "Depositar",
+    "withdraw": "Sacar",
+    "wallets": "Carteiras"
+  },
+  "common": {
+    "see_all": "Ver tudo",
+    "live": "Ao vivo",
+    "jackpot": "Jackpot",
+    "online": "online",
+    "games": "jogos",
+    "withdrawal_time": "< 10min saque"
+  }
+}

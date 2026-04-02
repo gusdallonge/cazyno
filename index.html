@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/icon-192.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#00FF66" />
+    <meta name="description" content="Cazyno - Casino en ligne premium. Jouez a la roulette, au blackjack, aux des et plus encore avec des cryptos." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://cazyno.net/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cazyno - Casino Crypto en Ligne" />
+    <meta property="og:description" content="Jouez a la roulette, au blackjack, aux des et plus encore avec des cryptos. Retraits en moins de 10 minutes." />
+    <meta property="og:image" content="https://cazyno.net/og-image.png" />
+    <meta property="og:url" content="https://cazyno.net/" />
+    <meta property="og:site_name" content="Cazyno" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cazyno - Casino Crypto en Ligne" />
+    <meta name="twitter:description" content="Jouez a la roulette, au blackjack, aux des et plus encore avec des cryptos. Retraits en moins de 10 minutes." />
+    <meta name="twitter:image" content="https://cazyno.net/og-image.png" />
+
+    <!-- Hreflang tags -->
+    <link rel="alternate" hreflang="fr" href="https://cazyno.net/?lng=fr" />
+    <link rel="alternate" hreflang="en" href="https://cazyno.net/?lng=en" />
+    <link rel="alternate" hreflang="ru" href="https://cazyno.net/?lng=ru" />
+    <link rel="alternate" hreflang="es" href="https://cazyno.net/?lng=es" />
+    <link rel="alternate" hreflang="pt" href="https://cazyno.net/?lng=pt" />
+    <link rel="alternate" hreflang="zh" href="https://cazyno.net/?lng=zh" />
+    <link rel="alternate" hreflang="ar" href="https://cazyno.net/?lng=ar" />
+    <link rel="alternate" hreflang="x-default" href="https://cazyno.net/" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Cazyno</title>
+    <!-- Satoshi font -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+    <!-- Cloudflare Turnstile -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Unregister old service workers to prevent caching issues
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(r => r.forEach(sw => sw.unregister()));
+      }
+    </script>
+  </body>
+</html>

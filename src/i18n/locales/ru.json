@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "casino": "Казино",
+    "sport": "Спорт",
+    "dashboard": "Панель управления",
+    "deposit": "Пополнить",
+    "withdraw": "Вывести",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "leaderboard": "Рейтинг",
+    "stats": "Статистика",
+    "transactions": "Транзакции",
+    "affiliate": "Партнёрка",
+    "vip": "VIP Клуб",
+    "promotions": "Акции",
+    "rewards": "Награды",
+    "bonus": "Бонус"
+  },
+  "auth": {
+    "login": "Вход",
+    "signup": "Регистрация",
+    "email": "Электронная почта",
+    "code": "Код подтверждения",
+    "send_code": "Отправить код",
+    "verify": "Подтвердить",
+    "change_email": "Изменить почту",
+    "resend": "Отправить код повторно"
+  },
+  "games": {
+    "play": "Играть",
+    "bet": "Ставка",
+    "balance": "Баланс",
+    "win": "Выигрыш",
+    "loss": "Проигрыш",
+    "cashout": "Забрать",
+    "players": "игроков",
+    "all_games": "Все игры"
+  },
+  "wallet": {
+    "total_balance": "Общий баланс",
+    "deposit": "Пополнить",
+    "withdraw": "Вывести",
+    "wallets": "Кошельки"
+  },
+  "common": {
+    "see_all": "Смотреть все",
+    "live": "Прямой эфир",
+    "jackpot": "Джекпот",
+    "online": "онлайн",
+    "games": "игры",
+    "withdrawal_time": "< 10мин вывод"
+  }
+}
