@@ -32,7 +32,7 @@ await fastify.register(rateLimit, {
 
 // CORS: restrict origins
 await fastify.register(cors, {
-  origin: ['http://localhost:5173', 'https://cazyno.net'],
+  origin: ['http://localhost:5173', 'https://cazyno.vercel.app', 'https://cazyno.net'],
   credentials: true,
 });
 
