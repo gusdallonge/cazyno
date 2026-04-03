@@ -1,39 +1,50 @@
-**Welcome to your Base44 project** 
+# CAZYNO
 
-**About**
+Online crypto casino platform — Provably Fair, instant withdrawals, 16+ original games.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+## Stack
 
-This project contains everything you need to run your app locally.
+- **Frontend** : React 18 + Vite + Tailwind CSS
+- **Backend** : Fastify + PostgreSQL
+- **Auth** : JWT + Magic Code (Resend)
+- **RNG** : Provably Fair (HMAC-SHA256)
+- **i18n** : 7 languages (FR, EN, RU, ES, PT, ZH, AR)
 
-**Edit the code in your local development environment**
+## Games
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+Crash, Roulette, Blackjack, Plinko, Dice, Mines, Limbo, Pulse Bomb, Chicken Drop, Trader, Keno, Tower, Coinflip, HiLo, Wheel, Video Poker
 
-**Prerequisites:** 
+## Setup
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+```bash
+# Frontend
+npm install
+npm run dev
+
+# Backend
+cd server
+npm install
+cp .env.example .env  # configure your DB + API keys
+npm run dev
+```
+
+## Environment Variables (server/.env)
 
 ```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
-
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+DATABASE_URL=postgresql://user:pass@localhost:5432/cazyno
+JWT_SECRET=your-secret
+RESEND_API_KEY=your-resend-key
+PORT=3001
+HOST=0.0.0.0
 ```
 
-Run the app: `npm run dev`
+## Deploy
 
-**Publish your changes**
+- **Frontend** : Caddy (static files from dist/) or Vercel
+- **Backend** : pm2 + Caddy reverse proxy
+- **DB** : PostgreSQL 17
+- **DNS** : Cloudflare
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+## License
 
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+Proprietary. All rights reserved.
